@@ -1,0 +1,30 @@
+sudo apt update
+
+sudo apt upgrade
+
+sudo apt install steam thunderbird sl hollywood cmatrix neofetch vim tor obs-studio qbittorrent giara flatpak fish wine gnome-multi-writer
+
+flatpak remote-add --user --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+wget -O discord.deb "https://discord.com/api/download?platform=linux&format=deb"
+
+sudo dpkg -i discord.deb
+
+sudo apt install -f
+
+wget -O opera.deb https://www.opera.com/download/get/?partner=www&opsys=Linux
+
+sudo dpkg -i opera.deb
+
+sudo apt install -f
+
+wget -O discord.deb "https://discord.com/api/download?platform=linux&format=deb"
+
+sudo dpkg -i discord.deb
+
+sudo apt install -f
+
+sudo reboot
+
+
+
